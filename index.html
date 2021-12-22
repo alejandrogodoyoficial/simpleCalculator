@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="icon" type="image/x-icon" href="./img/logo.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="calculator">
+		<header>
+			<h1>Simple Calculator</h1>
+		</header>
+		<form action="" onsubmit="return false">
+			<input type="Number" id="numOne" placeholder="Number One">
+			<select id="math">
+				<option value="plus">+</option>
+				<option value="minus">-</option>
+				<option value="multiplied">*</option>
+				<option value="divided">/</option>
+			</section>
+			<input type="Number" id="numTwo" placeholder="Number two">
+			<input type="submit" value="=" id="button">
+			<input type="Number" disabled class="disabled unselectable" id="result">
+		</form>
+	</div>
+	<div id="historyContainer">
+		<h2 class="title unselectable">History</h2>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>
