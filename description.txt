@@ -1,0 +1,2 @@
+Una simple calculadora con HTML, CSS y Javascript. Se ingresa un numero en cada input y se preciona el boton "=" y se obtendra un resultado, cada resultado se agrega a al historial.
+A simple calculator with HTML, CSS and Javascript. A number is entered in each input and the "=" button is pressed and a result will be obtained, each result is added to the history.
